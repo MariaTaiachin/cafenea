@@ -1,0 +1,26 @@
+#imag{
+    float: right;
+    margin: 50px;
+}
+nav{
+    position:fixed;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:4%;
+    background-color: rgb(121, 218, 218);
+}
+
+.rating label:hover ~ label { 
+  color: orange;
+}
+
+.rating input:checked ~ label {
+  color: orange;
+}
+.rating {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
